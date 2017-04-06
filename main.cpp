@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/*int main()
+int main()
 {
     int c=4;
     cout<<c++;
@@ -10,8 +10,8 @@ using namespace std;
 
 
     return 0;
-}*/
-/*int main(){
+}
+int main(){
     int a=2,b=3,z;
     if(a>b)
         z=a;
@@ -24,8 +24,8 @@ using namespace std;
 
 
     return 0;
-}*/
-/*int main(){
+}
+int main(){
     int score[10];
     int c=0;
 
@@ -44,9 +44,9 @@ using namespace std;
 
     return 0;
 
-}*/
+}
 
-/*int main(){
+int main(){
     int score[10];
     int c=0;
 
@@ -65,7 +65,7 @@ using namespace std;
 
     return 0;
 
-}*/
+}
 
 int main(){
     int score[3];
@@ -85,18 +85,6 @@ int main(){
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
