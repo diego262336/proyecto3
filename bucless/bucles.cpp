@@ -27,7 +27,7 @@ int main()
 
 int main(){
     int tam,temp;
-    cout<<"tamaño:";
+    cout<<"tamaÃ±o:";
     cin>>tam;
 
     int arreglo[tam];
@@ -98,3 +98,23 @@ int main(){
     cout<<"el mayor numero es : "<<mayor;
 }
 
+
+//fibonacci
+int main(){
+    int p=0,s=1,t,n,cont;
+    cout<<"ingrese cantidad de numeros:";
+    cin>>n;
+
+    while(cont<n){
+        if(t=p+s){
+            for(int p=0;p<s;p++){
+                p=s;
+                s=t;
+
+            }
+            cout<<s;
+        }
+        cont++;
+    }
+
+}
