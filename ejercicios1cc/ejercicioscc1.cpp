@@ -18,8 +18,8 @@ using namespace std;
 /*
 int main()
 {
-    cout << "***TABLA DE GRADOS F° y C°***" << endl;
-    cout<<"F°"<<"    "<<"C°"<<endl;
+    cout << "***TABLA DE GRADOS FÂ° y CÂ°***" << endl;
+    cout<<"FÂ°"<<"    "<<"CÂ°"<<endl;
     float f,c;
     int a=0;
     for(f=0;f<=300;f=f+20){
@@ -161,7 +161,6 @@ int main()
 }*/
 
 //8
-
 /*
 void intercambio_con_puntero(int *ap, int *bp)
 {
@@ -178,8 +177,9 @@ int main()
     cout<<"el nuevo valor de a="<<a<<"el nuevo valor de b="<<b<<endl;
     return 0;
 }
-
 */
+
+
 //9
 /*void insertSort(int arr[], int length);
 void imprimir(int arreg[],int tam);
@@ -214,13 +214,13 @@ void imprimir(int arreg[], int tam)
 
 //10
 
+
 //11
 
 
 
 
 //12
-
 /*int *reversa(int arreg[],const int lenght)
 {
     int temp;
@@ -238,17 +238,16 @@ int main(){
         cout<<arreg[i];
     }
 
-}
+}*/
 
 //13
 
 
-*/
+
 
 
 
 //14
-
 int sumar(int a[],int n)
 { 
     if(n==1) { 
@@ -260,19 +259,20 @@ int sumar(int a[],int n)
 
 
 //15.
-/*bool palindrome(char cad[], int p, int s)
+bool palindrome(string cadena,int tam)
 {
-    if(p>s)
-        return true;
-    else
-        if(cad[p]==cad[s])
-            return palindrome(cad,p+1,s-1);
-        else
-            return false;
+    if(cadena[0]!=cadena[tam-1])
+        return false;
+    return true;
 }
 int main()
 {
+    string cadena;
+    
+    cout<<"ingrese cadena: ";
+    cin>>cadena;
+    cout<<palindrome(cadena,5);
 
+
+    return 0;
 }
-
-*/
